@@ -1,0 +1,10 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K2:31:55 PM [express] serving on port 5000
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2:31:59 PM [express] GET /api/auth/me 304 in 7ms :: {"id":1,"name":"Dilan Othman","email":"dilan.othman2005@gmail.com","age":null,"height":null,"weight":null,"gender":null,"fitnessGoal":null,"activityLevel":"moderate","xp":0,"level":1,"isPremium":false,"subscriptionId":null,"createdAt":"2026-03-10T22:26:00.622Z"}
+2:31:59 PM [express] GET /api/goals 304 in 2ms
+2:32:03 PM [express] POST /api/auth/register 201 in 465ms :: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc3MzMyNTkyMywiZXhwIjoxNzc1OTE3OTIzfQ.qganaDPfPTsQatE2iy3HHlBEIqElgKfngMvWbFEeyLs","user":{"id":2,"name":"Test User","email":"testfitsync@test.com","age":null,"height":null,"weight":null,"gender":null,"fitnessGoal":"maintain_weight","activityLevel":"moderately_active","xp":0,"level":1,"isPremium":false,"subscriptionId":null,"createdAt":"2026-03-12T14:32:02.610Z"}}

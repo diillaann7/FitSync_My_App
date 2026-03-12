@@ -1,0 +1,260 @@
+Pasted-Act-as-a-senior-full-stack-software-architect-and-build_1773172883579.txt
+Act as a senior full-stack software architect and build a production-ready fitness tracking application.
+
+APP NAME
+FitTrack Pro
+
+GOAL
+Build a modern, scalable fitness tracking application that allows users to track calories, workouts, nutrition, and progress over time.
+
+TARGET PLATFORMS
+- Web application
+- Mobile responsive design
+- Optional: PWA support
+
+TECH STACK
+Frontend:
+- React / Next.js
+- TailwindCSS
+- Chart library for analytics
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- PostgreSQL
+
+Authentication:
+- JWT authentication
+- Secure password hashing
+
+Deployment:
+- Docker ready
+- Deployable to Vercel or similar platform
+
+--------------------------------
+
+CORE FEATURES
+
+1. USER AUTHENTICATION
+- User registration
+- Login / logout
+- Password reset
+- Secure authentication system
+- User profile management
+
+--------------------------------
+
+2. DASHBOARD
+The dashboard should show:
+
+- Daily calorie intake
+- Calories burned
+- Today's workouts
+- Progress charts
+- Body weight history
+
+Use visual charts for progress tracking.
+
+--------------------------------
+
+3. CALORIE TRACKING
+Users must be able to:
+
+- Add meals
+- Track calories
+- Track macros:
+  - Protein
+  - Carbohydrates
+  - Fat
+
+Features:
+- Searchable food database
+- Add custom foods
+- Daily nutrition summary
+- Weekly calorie analytics
+
+--------------------------------
+
+4. WORKOUT TRACKING
+
+Users can:
+
+- Create workout routines
+- Log exercises
+- Track sets
+- Track reps
+- Track weight
+
+Workout categories:
+- Strength training
+- Cardio
+- HIIT
+- Custom workouts
+
+Features:
+- Exercise library
+- Timer for workouts
+- Workout history
+
+--------------------------------
+
+5. TRAINING PLANS
+
+Users can:
+
+- Create personal training plans
+- Assign workouts to days
+- Follow weekly routines
+
+Example:
+Monday → Chest
+Tuesday → Back
+Wednesday → Cardio
+
+--------------------------------
+
+6. BODY METRICS TRACKING
+
+Users should track:
+
+- Weight
+- Body fat percentage
+- Muscle mass
+- Measurements (arms, waist, legs)
+
+Show visual progress charts.
+
+--------------------------------
+
+7. PROGRESS ANALYTICS
+
+Create analytics dashboards showing:
+
+- Weight progress
+- Workout frequency
+- Calories consumed vs burned
+- Personal records
+
+--------------------------------
+
+8. GOAL SETTING
+
+Users can define goals:
+
+- Lose weight
+- Gain muscle
+- Maintain weight
+
+The system should calculate:
+
+- Daily calorie targets
+- Macro targets
+
+--------------------------------
+
+9. SOCIAL FEATURES (OPTIONAL)
+
+- Share progress
+- Friend system
+- Leaderboards
+- Workout sharing
+
+--------------------------------
+
+10. NOTIFICATIONS
+
+Users receive reminders:
+
+- Workout reminders
+- Meal logging reminders
+- Weekly progress summary
+
+--------------------------------
+
+11. USER EXPERIENCE
+
+UI should be:
+
+- Modern fitness app design
+- Clean dashboard
+- Dark mode support
+- Mobile-first design
+
+--------------------------------
+
+DATABASE MODELS
+
+User
+- id
+- name
+- email
+- password
+- age
+- height
+- weight
+- fitness_goal
+
+Workout
+- id
+- user_id
+- name
+- date
+
+Exercise
+- id
+- workout_id
+- name
+- sets
+- reps
+- weight
+
+Food
+- id
+- name
+- calories
+- protein
+- carbs
+- fat
+
+MealLog
+- id
+- user_id
+- food_id
+- quantity
+- date
+
+BodyMetrics
+- id
+- user_id
+- weight
+- body_fat
+- muscle_mass
+- date
+
+--------------------------------
+
+ADDITIONAL REQUIREMENTS
+
+- Clean architecture
+- REST API
+- Scalable code structure
+- Error handling
+- Input validation
+- Secure authentication
+- Optimized database queries
+
+--------------------------------
+
+DELIVERABLES
+
+Generate:
+
+- Full project structure
+- Frontend
+- Backend
+- API routes
+- Database schema
+- Example seed data
+- Deployment instructions

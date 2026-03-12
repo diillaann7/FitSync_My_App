@@ -1,0 +1,96 @@
+You are a senior product engineer, startup founder, and UX designer.
+
+Your task is to upgrade my existing fitness app into a world-class, scalable product that could realistically compete with top fitness apps and become a million-dollar startup.
+
+Analyze the existing codebase and then implement a full set of professional features, focusing on user engagement, monetization, and long-term retention.
+
+The app should feel modern, premium, and extremely easy to use.
+
+Implement the following categories of features:
+
+1. USER SYSTEM
+- Secure authentication (email, Google, Apple login)
+- User profiles with fitness goals (lose weight, build muscle, stay fit)
+- Personal stats dashboard
+- Progress tracking (weight, body measurements, workouts)
+- Profile customization
+
+2. WORKOUT SYSTEM
+- Workout library with categories (strength, cardio, mobility, HIIT)
+- Custom workout builder
+- Daily workout suggestions based on goals
+- Exercise instructions with animations or images
+- Sets, reps, rest timers
+- Workout history and analytics
+- Personal records tracking
+
+3. AI FITNESS COACH
+- AI workout recommendations based on user progress
+- AI-generated weekly workout plans
+- Adaptive difficulty based on performance
+- Smart reminders and motivational messages
+
+4. PROGRESS & ANALYTICS
+- Charts for progress (weight, workouts completed, calories burned)
+- Weekly and monthly reports
+- Streak tracking
+- Achievement badges and milestones
+
+5. SOCIAL FEATURES
+- Friend system
+- Leaderboards
+- Share workouts
+- Community challenges
+- Comments and likes
+
+6. GAMIFICATION
+- XP and leveling system
+- Daily challenges
+- Reward system
+- Streak bonuses
+
+7. MONETIZATION
+- Free vs premium tier
+- Premium features:
+  - AI personal trainer
+  - advanced analytics
+  - custom training plans
+- In-app subscription system
+- Stripe integration for payments
+
+8. MOBILE-FIRST DESIGN
+- Responsive design
+- Modern UI/UX similar to top fitness apps
+- Smooth animations
+- Clean dashboard
+
+9. NOTIFICATIONS
+- Workout reminders
+- Progress alerts
+- Streak warnings
+- Push notifications
+
+10. SCALABILITY
+- Clean architecture
+- Modular components
+- Efficient database structure
+- API ready for mobile apps
+- Secure backend practices
+
+11. VIRAL GROWTH FEATURES
+- Invite friends system
+- Referral rewards
+- Social media sharing
+- Public workout achievements
+
+12. PERFORMANCE
+- Fast loading
+- Optimized database queries
+- Caching where necessary
+
+Important:
+- Write clean, maintainable, production-level code
+- Use modern best practices
+- Comment the code clearly
+- Suggest additional features that could increase engagement and revenue
+- Improve UI/UX wherever possible
