@@ -157,4 +157,4 @@ This helps improve user experience and product development.
 
 ---
 
-LINK: https://senior-architect--dilanothman2005.replit.app
+LINK: https://fit-sync-dilanothman2005.replit.app
